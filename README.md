@@ -18,15 +18,10 @@ Just copy the function and command definition from `plugin/vim1s.vim` into your 
 ## Usage
 GitHub HTTPS
 ```
-:Vim1s https://github.com/torvalds/linux.git
-```
-
-GitLab HTTPS
-```
-:Vim1s https://gitlab.com/linux-kernel/linux.git
+:Vim1s https://github.com/v15hv4/vim1s.git
 ```
 
 GitHub SSH
 ```
-:Vim1s git@github.com:torvalds/linux.git
+:Vim1s git@github.com:v15hv4/vim1s.git
 ```
