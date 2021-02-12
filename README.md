@@ -16,12 +16,17 @@ Plugin 'v15hv4/vim1s'
 Just copy the function and command definition from `plugin/vim1s.vim` into your vimrc, idk.
 
 ## Usage
-GitHub HTTPS
+SSH
+```
+:Vim1s git@github.com:v15hv4/vim1s.git
+```
+
+HTTPS (note: doesn't work for private/authenticated repos)
 ```
 :Vim1s https://github.com/v15hv4/vim1s.git
 ```
 
-GitHub SSH
+Alternate syntax (GitHub only)
 ```
-:Vim1s git@github.com:v15hv4/vim1s.git
+:Vim1s v15hv4/vim1s
 ```
