@@ -3,6 +3,11 @@
 " Version: 1.0
 " License: The Unlicense
 
+if exists("g:loaded_vim1s")
+    finish
+endif
+let g:loaded_vim1s = 1
+
 function! Vim1s(repo)
     echo 'Fetching repo...'
     let repo_id = join(split(substitute(a:repo, "\\(https\\|git\\).\\{-}\\.com\\(/\\|:\\)\\(.\\{-}\\)\\.git", "\\3", "g"), "/"), "_")
